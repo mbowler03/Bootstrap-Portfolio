@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <title>contact</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet2" type="text/css" href="stylesheet.css">
 </head>
 <!--Navigation Bar from Bootstrap-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -31,31 +32,35 @@
 </nav>
 
 <body>
-  <form>
-    <div class="form-row">
-      <div class="form-group col-md-8">
-        <label for="inputNAME">NAME</label>
-        <input type="NAME" class="form-control" id="NAME" placeholder="NAME">
-      </div>
-
-      <div class="form-group col-md-8">
-        <label for="inputEmail4">Email</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-      </div>
-    </div>
-    <button type="submit" class="btn btn-primary">Sign in</button>
-  </form>
-
-  <div class="rowfooter text-center">
-    <div class="col-12">
-      <nav class="navbar navbar-light bg-light">
-        <span class="navbar-text">
-        </span>
-        <div class="mx-auto" style="width: 200px;">
-          Written by Matthew Bowler
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="page header">
+          <h1>CONTACT</h1>
         </div>
-      </nav>
-    </div>
+
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-8">
+              <label for="inputNAME">NAME</label>
+              <input type="NAME" class="form-control" id="NAME" placeholder="NAME">
+            </div>
+
+            <div class="form-group col-md-8">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-8">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Email" rows="3"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">SUBMIT</button>
+        </form>
+        <nav class="navbar fixed-bottom navbar-light bg-light">
+          <a class="navbar-brand" href="#">Written By Matthew Bowler</a>
+        </nav>
+      </div>
 </body>
 
 </html>
