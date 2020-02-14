@@ -1,0 +1,25 @@
+.navbar-branda {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  
+}
+.container {
+  background-color: #ffffff;
+  background-image: url("../Images/Background.png");
+  border-color: #dddddd;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  bottom: 0;
+}
+.navbar-brand {
+  background: #666666;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  color: #ffffff;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+.page-header {
+  color: #4aaaa5;
+}
