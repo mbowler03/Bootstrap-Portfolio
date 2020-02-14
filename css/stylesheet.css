@@ -9,7 +9,7 @@
   background-image: url("../Images/Background.png");
   border-color: #dddddd;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  bottom: 0;
+  
 }
 .navbar-brand {
   background: #666666;
@@ -22,4 +22,8 @@
 }
 .page-header {
   color: #4aaaa5;
+}
+button {
+  color: #ffffff;
+  background: #4aaaa5;
 }
